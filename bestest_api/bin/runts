@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -e
+
+rake db:migrate:reset db:seed db:test:prepare
